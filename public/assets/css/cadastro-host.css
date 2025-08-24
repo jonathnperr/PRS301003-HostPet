@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ebe2dd;
+    font-family: 'Roboto', sans-serif;
+    zoom: 90%;
+    min-height: 100vh;
+    /* display: flex; */
+    flex-direction: column;
+}
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+}
+
+.cabeçalho img {
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.menu {
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: #175EA8;
+    padding-top: 32px;
+    padding-bottom: 22px;
+    border-bottom: 7px solid transparent; /* Inicialmente transparente */
+    transition: border-bottom-color 0.5s ease; /* Adiciona uma transição suave */
+}
+
+.menu:hover {
+    border-bottom-color: #175EA8; /* Cor da borda ao passar o mouse */
+}
+
+.botoes-cabecalho {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.botoes-cabecalho form {
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.botao-form {
+    background-color: #175EA8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.botao-form:hover {
+    background-color: #154272;
+}
+
+.botoes-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.botoes-main .botao-form {
+    width: 300px;
+}
+
+button {
+    background-color: #175EA8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+button:hover {
+    background-color: #154272;
+} 
+
+main {
+    max-width: 1100px;
+    margin: auto;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+
+footer {
+    background-color: #efefef;
+    color: #133F6E;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 19px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+.logo-ifsc {
+    width: 210px;
+}
+
+.cadastro0 {
+    padding-top: 45px;
+    margin: auto;
+    text-align: center;
+}
+
+.cadastro0 img {
+    width: 900px;
+}
+
+
+.titulo-cadastro {
+    background-image: url('../img/titulo-cadastro.png'); 
+    background-size: cover;
+    height: 110px;
+}
+
+.div-formata-cadastro{
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+.div-formata-cadastro img {
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.div-formata-cadastro input {
+    padding: 8px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+    width: 350px;
+    margin-top: 4px;
+}
+
+.div-formata-cadastro button {
+    background-color: #175EA8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 280px;
+}
+
+.div-formata-cadastro button:hover {
+    background-color: #1f4e81;
+}
+
+.div-formata-cadastro input[type="submit"] {
+    background-color: #175EA8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    width: 300px;
+    height: 35px;
+}
+
+.div-formata-cadastro input[type="submit"]:hover {
+    background-color: #1f4e81;
+}
+
+.div-formata-cadastro input[type="checkbox"] {
+    height: 15px;
+    width: 15px;
+}
+
+.div-formata-cadastro select {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    width: 370px;
+    margin-top: 4px;
+}
+
+.div-formata-cadastro textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px;
+    width: 350px;
+}
+
+strong {
+    color: #175EA8;
+}
+
+

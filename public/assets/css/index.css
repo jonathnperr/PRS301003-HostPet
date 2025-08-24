@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ebe2dd;
+    font-family: 'Roboto', sans-serif;
+    zoom: 90%;
+}
+
+header {
+    background-color: #ffffff;
+    height: 80px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+} 
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+}
+
+.cabeçalho img {
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-top: 5px;
+}
+
+.login {
+    font-size: 15px;
+    margin-left: auto;
+    padding: 10px;
+    padding-left: 17px;
+    padding-right: 17px;
+    border-radius: 5px;
+    background-color:#175EA8; 
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 500;
+    margin-right: 22px;
+}
+
+.login:hover {
+    background-color:#154272; 
+}
+
+.menu {
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 10px;
+    padding-top: 5px;
+    color: #175EA8;
+    padding-top: 32px;
+    padding-bottom: 22px;
+    border-bottom: 7px solid transparent; /* Inicialmente transparente */
+    transition: border-bottom-color 0.5s ease; /* Adiciona uma transição suave */
+}
+
+
+.menu:hover {
+    border-bottom-color: #175EA8; /* Cor da borda ao passar o mouse */
+}
+
+main {
+    width: 1100px;
+    margin: auto;
+    background-color: #184c84;
+}
+
+.div-ini {
+    display: flex;
+    justify-content: space-between;
+    height: 580px;
+    background-image: url('../img/div-ini.png'); 
+    background-size: cover;
+  }
+
+.div-ini-esquerda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza as divs verticalmente */
+    align-items: center; /* Centraliza as divs horizontalmente */
+    flex: 1.25;
+}
+
+.div-ini-esquerda-cima {
+    flex: 1.4;
+    width: 60%;
+}
+
+.div-ini-esquerda-cima p {
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: #ffffff;
+    margin-top: 20%;
+    font-style: bold;
+}
+
+.div-ini-esquerda-baixo {
+    flex: 1;
+}
+
+.div-ini-direita {
+    flex: 1;
+}
+
+.div-ini-direita img {
+    width: 100%; /* Para garantir que a imagem ocupe 100% da largura da div-filha */
+    height: 100%; /* Para manter a proporção da imagem */
+  }
+
+ .div-ini button {
+    height: 55px;
+    width: 380px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 7px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#ac94c5;
+    cursor: pointer;
+  }
+
+.div-ini button:hover {
+    height: 55px;
+    width: 380px;
+    border-radius: 10px;
+    border: 0px;
+    margin-top: 7px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#9073b0;
+    cursor: pointer;
+  }
+
+.como-funciona {
+    height: 400px;
+    background-image: url('../img/como-funciona.png'); 
+    background-size: cover;
+  }
+
+  .quem-somos {
+    height: 400px;
+    background-image: url('../img/quem-somos.png'); 
+    background-size: cover;
+  }
+
+  .junte {
+    height: 450px;
+    background-image: url('../img/junte.png'); 
+    background-color: #ffffff;
+    background-repeat: no-repeat; /* impede a repetição da imagem */
+    background-position: bottom; /* posiciona a imagem na parte inferior */
+}
+
+.extra {
+    background-color: #ffffff;
+    height: 35px;
+}
+
+footer {
+    background-color: #efefef;
+    color: #133F6E;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 19px;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
+
+.logo-ifsc {
+    width: 210px;
+}

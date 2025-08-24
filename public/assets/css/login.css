@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px; 
+}
+
+body {
+    background-image: url('../img/fundo-login.png');
+    background-size: cover;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    zoom: 90%;
+    font-weight: 500;
+}
+
+.div-principal {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 35%;
+    width: 75%;
+    margin-bottom: 10%;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1.titulo {
+    text-align: center;
+    color: #175EA8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 25px;
+}
+
+input[type="submit"] {
+    background-color: #175EA8;
+    color: #fff;
+    cursor: pointer;
+    height: 45px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0e3865;
+}
+
+::placeholder {
+    color: #adadad;
+    font-family: 'Roboto', sans-serif; 
+    font-size: 14px; 
+  }
