@@ -1,7 +1,7 @@
 # HostPet - Plataforma de Hospedagem para Pets
 
 <p align="center">
-  <img src="public/assets/img/logo.png" alt="HostPet Logo" width="300">
+  <img img width="300" height="110" src="https://github.com/user-attachments/assets/1fe25ed3-b236-4ebd-9b0b-e0fdc69bef36" />
 </p>
 
 ## ℹ️ Sobre o Repositório
@@ -142,3 +142,6 @@ Jonathan Moraes Pereira
 ---
 
 **Nota**: Este projeto foi desenvolvido como trabalho de conclusão do curso técnico, integrando os conhecimentos adquiridos durante a formação e demonstrando habilidades em desenvolvimento web full-stack.
+<p align="center">
+  <img width="211" height="70" alt="Captura de Tela 2025-08-25 às 08 56 20 1" src="https://github.com/user-attachments/assets/9e9ac7c0-f936-4418-adda-4b51baf9e5bb" />
+</p>
